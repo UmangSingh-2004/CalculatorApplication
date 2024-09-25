@@ -237,7 +237,7 @@ public class Calculator {
         f.add(result);
         f.add(delete);
         f.add(clean);
-        f.getContentPane();//setBackground(Color.darkGray);
+        f.getContentPane();setBackground(Color.darkGray);
         f.setIconImage(logo.getImage());
         f.setLocationRelativeTo(null);
         f.setLayout(null);
